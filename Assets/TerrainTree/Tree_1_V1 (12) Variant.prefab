@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4552704709343912461
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.264093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.0992584
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -124.08188
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+    - target: {fileID: 919132149155446097, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_Name
+      value: Tree_1_V1 (12) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6514416543519451084}
+  m_SourcePrefab: {fileID: 100100000, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+--- !u!1 &3742241830922362716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 45980b402f3573542bc6c1435299df62, type: 3}
+  m_PrefabInstance: {fileID: 4552704709343912461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &-6514416543519451084
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742241830922362716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.5759994
+  m_Height: 6.0600004
+  m_Direction: 1
+  m_Center: {x: -0.00000023841858, y: 3.0300002, z: 0}
